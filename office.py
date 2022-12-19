@@ -20,6 +20,15 @@ class TheOffice:
 
     def get_employee_sales(self, employee: Employee) -> int:
         return self.sales[employee]
+    
+     """Method that returns the number of sales given an employee.
+
+    Args:
+        employee (Employee): The employee whose sales number we are interested in.
+
+    Returns:
+        int: The total number of sales the employee has made.
+    """
 
          """Method that returns the number of sales given an employee.
 
